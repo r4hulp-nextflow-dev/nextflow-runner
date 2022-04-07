@@ -14,8 +14,8 @@ on:
 
 env:
   BUILDCONFIGURATION: 'Release'
-  AZURE_SUBSCRIPTION_ID: '1c642d88-5042-4d19-9d49-49be6612a40f'
-  AZURE_RESOURCE_GROUP: 'rg-nextflow-runner'
+  AZURE_SUBSCRIPTION_ID: 'bdc90a61-bf93-4566-88ee-6617c03686e8'
+  AZURE_RESOURCE_GROUP: 'nextflow-shared'
 
 jobs:
   build:
