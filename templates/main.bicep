@@ -1,4 +1,4 @@
-param prefix string = 'nfr-${uniqueString(resourceGroup().id)}'
+param prefix string = 'dre-${uniqueString(resourceGroup().id)}'
 param tagVersion string = 'nfr-version:v1.2.0'
 param location string = resourceGroup().location
 param sqlDatabaseName string = 'nfr-DB'
@@ -94,6 +94,9 @@ module sqlDatabase 'modules/sql-database.bicep' = {
 }
 
 module batch 'modules/batchservice.bicep' = {
+  dependsOn: [ 
+    keyvault 
+  ]
   name: 'batch-account'
   params: {
     tagVersion: tagVersion
