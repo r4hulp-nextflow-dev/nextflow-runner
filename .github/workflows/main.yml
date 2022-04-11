@@ -15,7 +15,7 @@ on:
 env:
   BUILDCONFIGURATION: 'Release'
   AZURE_SUBSCRIPTION_ID: 'bdc90a61-bf93-4566-88ee-6617c03686e8'
-  AZURE_RESOURCE_GROUP: 'nextflow-shared'
+  AZURE_RESOURCE_GROUP: 'hpc-shared'
 
 jobs:
   build:
