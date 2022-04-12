@@ -40,6 +40,6 @@ public partial class ContainerManager
 
         await context.WaitForExternalEvent("WeblogTraceComplete", TimeSpan.FromHours(48));
 
-        await context.CallActivityAsync("ContainerManager_DestroyContainer", containerGroupName);
+        // await context.CallActivityAsync("ContainerManager_DestroyContainer", containerGroupName);
     }
 }
