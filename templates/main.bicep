@@ -1,4 +1,4 @@
-param prefix string = 'drehpc-${uniqueString(resourceGroup().id)}'
+param prefix string = 'dre-${uniqueString(resourceGroup().id)}'
 param tagVersion string = 'nfr-version:v1.2.0'
 param location string = resourceGroup().location
 param sqlDatabaseName string = 'nfr-DB'
