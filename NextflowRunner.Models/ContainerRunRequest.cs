@@ -4,7 +4,7 @@ public class ContainerRunRequest
 {
     public string RunName { get; set; }
     public string Command { get; set; } = "nextflow run nextflow-io/hello";
-    public string ContainerImage { get; set; } = "nextflow/nextflow:21.10.6";
+    public string ContainerImage { get; set; } = "nextflow/nextflow:22.04.0";
     // todo: provide params for environment variables to the container
     public Dictionary<string, string> Parameters { get; set; } = new Dictionary<string, string>();
     // storage account config will be built into image
