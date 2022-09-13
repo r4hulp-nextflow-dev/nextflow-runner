@@ -14,8 +14,8 @@ on:
 
 env:
   BUILDCONFIGURATION: 'Release'
-  AZURE_SUBSCRIPTION_ID: 'bdc90a61-bf93-4566-88ee-6617c03686e8'
-  AZURE_RESOURCE_GROUP: 'dre-demo-hpc'
+  AZURE_SUBSCRIPTION_ID: '4ff2b87b-9aee-4970-abb7-fd19f4b139ba'
+  AZURE_RESOURCE_GROUP: 'RG-NextflowRunner-Dev'
 
 jobs:
   build:
